@@ -1,0 +1,123 @@
+.heronav {
+    background-image: url("../../../../public/images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /* margin-top: 20px; */
+}
+
+.heronav .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 15%;
+
+}
+
+.hero-navbar {
+    margin-top: -220px;
+    background-color: #1d2636; /* Example background color */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 128.5%;
+}
+
+.hero-top {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.hero-top:hover {
+    transform: scale(1.1);
+    /* Apply scale transform on hover */
+}
+.hero-top1 {
+    margin-top:-35px ;
+    margin-bottom: 10px;
+    margin-left: 22%;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+.hero-top1:hover {
+    transform: scale(1.1);
+    /* Apply scale transform on hover */
+}
+.hero-top2 {
+    margin-top: -36px;
+    margin-left: 28%;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+
+}
+.hero-top2:hover {
+    transform: scale(1.1);
+    /* Apply scale transform on hover */
+}
+.toptxt{
+    margin-top: 90px;
+    margin-left: 40px;
+    text-decoration: dotted;
+}
+/* Custom styles for SweetAlert dialogs */
+.swal2-popup {
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  .swal2-title {
+    font-size: 18px; /* Adjust title font size */
+  }
+  
+  .swal2-content {
+    font-size: 16px; /* Adjust content font size */
+  }
+  
+  .swal2-actions {
+    margin-top: 10px; /* Adjust top margin for buttons */
+  }
+  
+  .swal2-confirm {
+    font-size: 14px; /* Adjust confirm button font size */
+  }
+  
+  .swal2-cancel {
+    font-size: 14px; /* Adjust cancel button font size */
+  }
+  
+.hero-navbar h2 {
+    color: #fff;
+    font-size: medium;
+}
+.buticon{
+    margin-left: 95%;
+    font-size: 42px;
+    margin-top: -65px;
+    color: #fff;
+}
+.buticon1{
+    margin-left: 90%;
+    font-size: 42px;
+    margin-top: -60px;
+    margin-bottom: 2px;
+    color: #fff;
+}
+.btn1 {
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+    background-color: rgb(232, 65, 65);
+    /* Add any additional styling for the button */
+}
+
+@media screen and (max-width: 800px) {
+    .heronav .container {
+        padding-top: 30%;
+    }
+    /* Additional responsive styles if needed */
+}
