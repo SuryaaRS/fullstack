@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "spring.jpa.propertiea.hibernate.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.propertiea.hibernate.dialect'"
+  },
+  {
+    "name": "application.jwt.secret-key",
+    "type": "java.lang.String",
+    "description": "A description for 'application.jwt.secret-key'"
+  },
+  {
+    "name": "application.jwt.expiry-date",
+    "type": "java.lang.String",
+    "description": "A description for 'application.jwt.expiry-date'"
+  },
+  {
+    "name": "application.swagger.contact.name",
+    "type": "java.lang.String",
+    "description": "A description for 'application.swagger.contact.name'"
+  },
+  {
+    "name": "application.swagger.contact.email",
+    "type": "java.lang.String",
+    "description": "A description for 'application.swagger.contact.email'"
+  },
+  {
+    "name": "application.swagger.contact.url",
+    "type": "java.lang.String",
+    "description": "A description for 'application.swagger.contact.url'"
+  }
+]}
